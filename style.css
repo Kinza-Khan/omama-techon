@@ -1,0 +1,340 @@
+#omama_header_section .container-fluid{
+    height: 500px;
+    background: url(images/pic4.jpeg);
+    background-position: center;
+    animation-name: xyz;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes xyz {
+            25% {
+                background: url(images/pic3.jpeg );
+                /* background-size: cover; */
+                background-position: center;
+            }
+
+             50% {
+                background: url(images/Tiffin-Banner2.jpg);
+                /* background-size: cover; */
+                background-position: center;
+            } 
+        }
+        
+
+    
+
+/* nav bar work start */
+#omama_header_section header .nav-link {
+color: white !important;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+
+}
+
+
+#omama_header_section header.abc{
+background-color: rgba(20, 10, 10, 0.808, 0);
+
+}
+#omama_header_section header .dropdown-menu .a{
+color: whitesmoke;
+}
+#omama_header_section header .dropdown-menu .a:hover{
+color: white;
+background-color: rgba(2, 0, 0, 0.123);
+
+}
+/* heads work */
+ #omama_header_section .heads{
+/* border: 1px solid black; */
+position: relative;
+top: 40px;
+/* left: 50px; */
+
+
+}
+ #omama_header_section .heads h5{
+color: #ffffff;
+text-align: center;
+font-size: 23px;
+font-weight: bolder;
+/* border: 1px solid red; */
+/* width: 80%; */
+/* height: 100px; */
+    
+    }
+ #omama_header_section .heads h1{
+color: #ffffff;
+text-align: center;
+font-size: 56px;
+font-weight: bold;
+/* border: 1px solid red; */
+/* width: 80%;
+height: 100px; */
+
+    
+}
+#omama_header_section .heads .he{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+/* buttons work */
+#omama_header_section header .button{
+    /* border: 1px solid black; */
+    position: relative;
+    top: 40px;
+    
+}
+#omama_header_section header .button .bu{
+    margin: 10px 50px;
+}
+#omama_header_section header .button .bu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+#omama_header_section #x{
+    display: none;
+}
+#omama_header_section .button .bu1{
+    position: relative;
+    left: 50px;
+}
+#omama_header_section .button .bu2{
+    position: relative;
+    right: 38px;
+}
+#omama_header_section #dr:hover #x{
+    display: block !important;
+}
+#omama_header_section #ray:hover #say{
+    display: block !important;
+}
+#omama_header_section #say{
+    display: none;
+}
+
+/* vegetables */
+#musfira_vegetables .c{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+#musfira_vegetables .c:hover{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 310px;
+}
+#musfira_vegetables .move{
+    position: relative;
+    /* left: 20px; */
+    /* border: 1px solid black; */
+    top: -23px;
+    right: 48px;
+}
+#musfira_vegetables #ti{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#musfira_vegetables #price{
+    position: relative;
+    bottom: 20px;
+    right: 80px;
+    color: rgb(51, 151, 184);
+    font-weight: bold;
+    font-size: 18px;
+}
+#musfira_vegetables #tag{
+    position: relative;
+    top: -321px;
+    left: 85px;
+}
+/* sweet dishes work */
+#omama_sweet .c{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+#omama_sweet .c:hover{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 310px;
+}
+#omama_sweet .move{
+    position: relative;
+    /* left: 20px; */
+    /* border: 1px solid black; */
+    top: -23px;
+    right: 48px;
+}
+#omama_sweet #ti{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#omama_sweet #price{
+    position: relative;
+    bottom: 20px;
+    right: 80px;
+    color: rgb(51, 151, 184);
+    font-weight: bold;
+    font-size: 18px;
+}
+#omama_sweet #tag{
+    position: relative;
+    top: -321px;
+    left: 85px;
+}
+/* non vegetable work */
+#musfira_nonvegetables .c{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+#musfira_nonvegetables .c:hover{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 310px;
+}
+#musfira_nonvegetables .move{
+    position: relative;
+    /* left: 20px; */
+    /* border: 1px solid black; */
+    top: -23px;
+    right: 48px;
+}
+#musfira_nonvegetables #ti{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#musfira_nonvegetables #price{
+    position: relative;
+    bottom: 20px;
+    right: 80px;
+    color: rgb(51, 151, 184);
+    font-weight: bold;
+    font-size: 18px;
+}
+#musfira_nonvegetables #tag{
+    position: relative;
+    top: -321px;
+    left: 85px;
+}
+/* omama mix */
+#omama_mix .c{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+#omama_mix .c:hover{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 310px;
+}
+#omama_mix .move{
+    position: relative;
+    /* left: 20px; */
+    /* border: 1px solid black; */
+    top: -23px;
+    right: 48px;
+}
+#omama_mix #ti{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+#omama_mix #price{
+    position: relative;
+    bottom: 20px;
+    right: 80px;
+    color: rgb(51, 151, 184);
+    font-weight: bold;
+    font-size: 18px;
+}
+#omama_mix #tag{
+    position: relative;
+    top: -321px;
+    left: 85px;
+}
+
+/* GALLERY WORK */
+#omama_gallery .container-fluid {
+    height: 1700px;
+    background-color: gainsboro;
+    /* border: 1px solid black; */
+    /* background: url(images/f1.jpeg); */
+}
+#omama_gallery .ab{
+    height: 400px;
+    /* border: 1px solid red;   */
+    /* overflow: hidden; */
+    
+}
+
+#omama_gallery #circle{
+    border-radius: 25px;
+}
+
+
+
+#omama_gallery .icon{
+    position: relative;
+    top: -140px;
+    left: 50px;
+
+}
+#omama_gallery h3{
+    position: relative;
+    /* border: 5px solid rgb(239, 235, 235); */
+    top: -145px;
+    left: 15px;
+    /* left: 40px; */
+    color: white;
+    font-weight: bold;
+    
+}
+#omama_gallery #h{
+    text-decoration: none;
+}
+#omama_gallery .content{
+    position: relative;
+    top: -150px;
+    color: white;
+    background-color: rgba(0, 0, 0,0.2);
+    
+    left: 40px;
+    /* font-size: 13px; */
+    width: 80%;
+
+}
+#omama_gallery .content1{
+    color: azure;
+    font-size: 16px;
+    font-weight: 500;
+    /* background-color: rgba(16, 12, 12,0.4); */
+    
+}
+
+/* footer */
+
+/* musfira footer */
+#musfira-footer .container-fluid .foot2 {
+    /* height: 150px; */
+    border: 10px solid white;
+}
+
+#musfira-footer .container-fluid {
+    color: white;
+    background-color: darkseagreen;
+}
+

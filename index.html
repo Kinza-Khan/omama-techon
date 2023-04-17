@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <style>
+    *{
+        margin: 0px;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+   </style>
+</head>
+<body>
+    
+<section id="omama_header_section">
+    <div class="container-fluid">
+        <!-- header work -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light abc" >
+            <a href="" class="navbar-brand"><img src="images/logotiff.png" height="100px" width="170px" alt=""></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#xyz" ><span class="navbar-toggler-icon"></span></button>
+            <div id="xyz" class="navbar-collapse collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ml-2"><a href="" class="nav-link">HOME</a></li>
+                    <li class="nav-item ml-2"><a href="" class="nav-link">HOW IT WORKS</a></li>
+                    <li class="nav-item ml-2 dropdown" id="dr"> <a href="" class="nav-link tip" >CATEGORIES</a>
+                        <div id="x" class="dropdown-menu bg-dark" >
+                            <a id="veg" href="#musfira_vegetables" class="dropdown-item a">Vegetable</a>
+                            <a id="non" href="#musfira_nonvegetables" class="dropdown-item a">Non Vegetables</a>
+                           <a id="mix" href="#omama_mix" class="dropdown-item a" >Mix Food</a>
+                            <a id="sweet" href="#omama_sweet" class="dropdown-item a">Sweet Dishes</a>
+                            <a href="" class="dropdown-item a">Special Foods for Patient</a>
+                            <a href="" class="dropdown-item a">Healthy Food for diet concious people</a>
+                        </div>
+                    </li>
+                    <li class="nav-item ml-2 "><a  href="" class="nav-link">OUR PLANS</a></li>
+                    <li class="nav-item ml-2"><a i href="" class="nav-link">MONTHLY MENU</a></li>
+                    </li>
+                    <li class="nav-item ml-2"><a  href="" class="nav-link">DELIVERY AREA</a></li>
+                    <li class="nav-item ml-2"><a  href="contact.html" class="nav-link">CONTACT</a></li>
+
+                </ul>
+            </div>
+            </nav>
+            <div class="heads ">
+                <h1 class="he">TIFFINWALA</h1>
+                <h5 class="he col-lg-12 col-md-12 col-sm-12 col-12">...GHAR KA KHANA AB KAHIN BHI...</h5>
+               
+            </div>
+        </header>
+    </div>
+   
+</section>
+<section id="omama_gallery">
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 ab mt-3">
+                <img id="circle" src="images/islamabad.jpeg" class="col-md-6
+                    col-md-12 col-12" height="400px" alt="click">
+                <a href=""><img class="icon" src="images/punjab-icon
+                        (1).png" height="30px" width="40px" alt="click"></a>
+                <a href="" id="h"><h3>Islamabad</h3></a>
+                <p class="content">Islamabad, the capital city of Pakistan
+                    is ranked as one of the most beautiful cities in the
+                    world.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ab mt-3">
+                <img id="circle" src="images/punjab.jpg " class="col-md-12
+                    col-sm-12" height="400px" alt="click">
+                <a href=""><img class="icon" src="images/punjab-icon
+                        (1).png" height="30px" width="40px" alt="click"></a>
+                <a href="" id="h"><h3>Punjab</h3></a>
+                <p class="content">
+                    punjab is pakistan's second largest province by area,
+                    and it is the most populated province, with rich culture
+                    & history
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ab mt-3">
+                <img id="circle" src="images/sindh.jpg " class="col-md-12"
+                    height="400px" alt="click">
+                <a href=""><img class="icon" src="images/sindh-icon.png"
+                        height="30px" width="40px" alt="click"></a>
+                <a href="" id="h"><h3>Sindh</h3></a>
+                <p class="content content1">
+                    Sindh is in the southeast of the country, and the
+                    historical home of the sindhi people. Sindh has
+                    pakistan's second largest economy
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ab mt-3">
+                <img id="circle" src="images/kpk.jpg " class="col-md-12
+                    col-sm-12" height="400px" alt="click">
+                <a href=""><img class="icon" src="images/KPK-icon.png "
+                        height="30px" width="40px" alt="click"></a>
+                <a href="" id="h"><h3>khyber Pakhtunkhwa</h3></a>
+                <p class="content">
+                    KPK located in the northwestern region of the country
+                    along the international border with Afghanistan.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ab mt-3">
+                <img id="circle" src="images/balochistan.jpg "
+                    class="col-md-12" height="400px" alt="click">
+                <a href=""><img class="icon" src="images/punjab-icon
+                        (1).png" height="30px" width="40px" alt="click"></a>
+                <a href="" id="h"><h3>Balochistan</h3></a>
+                <p class="content">
+                    It is the largest province in terms of land area,
+                    forming the southwestern region of the country, but is
+                    the least populated. Its provincial capital and largest
+                    city is Quetta.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ab mt-3">
+                <img id="circle" src="images/kashmir.jpg " class="col-md-12
+                    col-sm-12" height="400px" alt="click">
+                <a href=""><img class="icon" src="images/punjab-icon
+                        (1).png" height="30px" width="40px" alt="click"></a>
+                <a href="" id="h"><h3>Azad Kashmir</h3></a>
+                <p class="content">
+                    Azad Kashmir is Administrative region of Pakistan
+                    situated in Northern part of the country. The northern
+                    part of Azad Jammu and Kashmir encompasses, Himalayas.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ab mt-3">
+                <img id="circle" src="images/gilgit.jpg " class="col-md-12"
+                    height="400px" alt="click">
+                <a href=""><img class="icon" src="images/punjab-icon
+                        (1).png" height="30px" width="40px" alt="click"></a>
+                <a href="" id="h"><h3>Gilgit Baltistan</h3></a>
+                <p class="content">
+                    Gilgit-Baltistan is admisitrative unit of Pakistan
+                    situated in the Northern Part of the country.It is one
+                    of the best tourist spots in Pakistan.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="musfira_vegetables">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="card c">
+                <img class="card-img-top" src="images/aloo gobi.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">ALOO GHOBI IS A VEGETARIAN DISH MADE FROM POTOTOES</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 600
+                    </p>
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/khatoo.jpg" height="200px" alt="">
+                <div class="card-body">
+                   <h6 class="card-title "><a href="" id="ti">KHATAY ALOO MADE FROM POTOTOES</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 500
+                    </p>
+
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/bhujya.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">BHUJYA MADE FROM VEGETABLES</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE:700
+                    </p>
+                  
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/sagh.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">SAGH MADE FROM SPINICH</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 800
+                    </p>
+                
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="imageS/karela.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">DHAGA KARELA</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 500
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/tofu and vegetable curry.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">TOFU AND VEGETABLE CURRY</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 500
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/bhindi.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">BHARI BHINDI</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 500
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/baigan.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">BHANGARAY BAIGAN</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 500
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/khatoo.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">KHATAY ALOO</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 500
+                    </p>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+    </section> 
+ <section id="musfira_nonvegetables">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="card c">
+                    <img class="card-img-top" src="images/biryani.jpg" height="200px" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title "><a href="" id="ti">BIRYANI</a></h6>
+                        <img src="images/time.png"  height="15px" width="15px" alt="">
+                        <p class="card-text move text-center" id="price">PRICE: 200
+                        </p>
+                    </div>
+                </div>
+                <div class="card c">
+                    <img class="card-img-top" src="images/karahi.jpg" height="200px" alt="">
+                    <div class="card-body">
+                       <h6 class="card-title "><a href="" id="ti">CHICKEN KARAHI</a></h6>
+                        <img src="images/time.png"  height="15px" width="15px" alt="">
+                        <p class="card-text move text-center" id="price">PRICE: 300
+                        </p>
+    
+                    </div>
+                </div>
+                <div class="card c">
+                    <img class="card-img-top" src="images/seekh kabab.jpg" height="200px" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title "><a href="" id="ti">SEEKH KABAB</a></h6>
+                        <img src="images/time.png"  height="15px" width="15px" alt="">
+                        <p class="card-text move text-center" id="price">PRICE:700
+                        </p>
+                      
+                    </div>
+                </div>
+                <div class="card c">
+                    <img class="card-img-top" src="images/pasat.jpg" height="200px" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title "><a href="" id="ti">CHICKEN PASATA </a></h6>
+                        <img src="images/time.png"  height="15px" width="15px" alt="">
+                        <p class="card-text move text-center" id="price">PRICE: 900
+                        </p>
+                    
+                    </div>
+                </div>
+                <div class="card c">
+                    <img class="card-img-top" src="imageS/burger.jpg" height="200px" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title "><a href="" id="ti">CHICKEN BURGER</a></h6>
+                        <img src="images/time.png"  height="15px" width="15px" alt="">
+                        <p class="card-text move text-center" id="price">PRICE: 700
+                        </p>
+                       
+                    </div>
+                </div>
+                <div class="card c">
+                    <img class="card-img-top" src="images/roll parahta.jpg" height="200px" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title "><a href="" id="ti">ROLL PARATHAN</a></h6>
+                        <img src="images/time.png"  height="15px" width="15px" alt="">
+                        <p class="card-text move text-center" id="price">PRICE: 150
+                        </p>
+                       
+                    </div>
+                </div>
+                <div class="card c">
+                    <img class="card-img-top" src="images/tikka.jpg" height="200px" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title "><a href="" id="ti">CHICKEN TIKKA</a></h6>
+                        <img src="images/time.png"  height="15px" width="15px" alt="">
+                        <p class="card-text move text-center" id="price">PRICE: 300
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="card c">
+                    <img class="card-img-top" src="images/pizza.jpg" height="200px" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title "><a href="" id="ti">CHICKEN TIKKA PIZZA</a></h6>
+                        <img src="images/time.png"  height="15px" width="15px" alt="">
+                        <p class="card-text move text-center" id="price">PRICE: 400
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="card c">
+                    <img class="card-img-top" src="images/shawarma.jpg" height="200px" alt="">
+                    <div class="card-body">
+                        <h6 class="card-title "><a href="" id="ti">SHAWARMAN</a></h6>
+                        <img src="images/time.png"  height="15px" width="15px" alt="">
+                        <p class="card-text move text-center" id="price">PRICE: 250
+                        </p>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <section id="omama_mix">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="card c">
+                <img class="card-img-top" src="images/DALL.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">MIX DALL</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 150
+                    </p>
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/CHIWARA.jpg" height="200px" alt="">
+                <div class="card-body">
+                   <h6 class="card-title "><a href="" id="ti">CHIWRA</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 300
+                    </p>
+
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/GONGO CHICKEN.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">GONGO CHICKEN</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE:700
+                    </p>
+                  
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/TRADITIONAL CHINESE.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">TRADITIONAL CHINESE </a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 900
+                    </p>
+                
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/PAO BHAGI.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">PAO BHAGI</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 700
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/CHICKEN MANCHORIAN.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">MANCHORIAN</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 150
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/PAVACHI.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">PAWACHI BHAGI</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 300
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/QEEMA PARATHAN.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">QEEMA PARATHAN</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 250
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/SHAWARMA.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">SHAWARMAN</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 250
+                    </p>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="omama_sweet">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="card c">
+                <img class="card-img-top" src="images/sweet11.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">KESAR PISTA PINK JELLY FALOODA</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 1200
+                    </p>
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/sweet2.jpg" height="200px" alt="">
+                <div class="card-body">
+                   <h6 class="card-title "><a href="" id="ti">3 DONUTS WTH ONE CUP OF SWEET COFFEE</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 700
+                    </p>
+
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/sweet3.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">ONE PACK OF SWEET GULAB JAMUN</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE:1400
+                    </p>
+                  
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/sweet4.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">MANGO FALOODA TOPPING WITH JELLY</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 1000
+                    </p>
+                
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="imageS/sweet5.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">CHOCLATE BALLS WITH CRINKLES ON TOP</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 900
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/sweet6.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">CHOCLATES WITH DIFFERENT FLAVOURS</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 2500
+                    </p>
+                   
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/sweet7.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">CHOCLATE STRAWBERRY STICKS</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 1100
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/sweet8.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">YELLOW PUDDING IN HEART SHAPE</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 1000
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="card c">
+                <img class="card-img-top" src="images/sweet9.jpg" height="200px" alt="">
+                <div class="card-body">
+                    <h6 class="card-title "><a href="" id="ti">BEST KUNAFA WITH A NICE TOPPING</a></h6>
+                    <img src="images/time.png"  height="15px" width="15px" alt="">
+                    <p class="card-text move text-center" id="price">PRICE: 1600
+                    </p>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+    </section> 
+    <section id="mahrukh_footer">
+        <footer>
+            <section id="musfira-footer">
+                <div class="container-fluid ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 foot1 ">
+                                <h3 class="pt-5">Follow us </h3>
+                                <div class="row ml-5">
+                                    <!-- <img src="images/twit.png" alt="" class="col-md-1 col-sm-1 col-2 "> -->
+                                    <!-- <img src="images/you.png" alt="" class="col-md-1 col-sm-1 col-2">
+                                    <img src="images/face.png" alt="" class="col-md-1 col-sm-1 col-2">
+                                    <img src="images/insta.png" alt="" class="col-md-1 col-sm-1 col-2"> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-12 foot2 mt-3"><img src="images/pic8.jpeg" height="300px" class="col-md-12 col-lg-12" alt=""></div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 foot3">
+                                <div class="row justify-content-around">
+                                    <div class="col-md-4 p-4">MUSFIRA SHABBIR <br>
+                                        musfirashabbir853@gmail.com<br>
+                                        OMAMA JAVED BHURI<br>
+                                        omamabhuri2004@gmail.com<br>
+                                        MAHRUKH SIDDIQUE<br>
+                                        mahrukh678@gmail.com
+                                    </div>
+                                    <div class="col-md-8 p-4">MUSFIRA SHABBIR <br>
+                                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate porro aliquid voluptatum quos tenetur beatae assumenda? Doloremque esse iusto at, ab unde ad animi asperiores dicta rem ut excepturi dignissimos.
+                                      Laborum, veritatis. Quisquam saepe pariatur voluptate asperiores reiciendis nam voluptates provident error earum voluptas eius rem eos, cupiditate omnis aperiam natus velit animi. Consequatur aut, voluptatibus libero fugit reprehenderit distinctio quae quasi consequuntur temporibus iure soluta. Tempora corporis off
+                                    </div>
+                                    <!-- <div class="col-md-3"><img src="images/bg.jpg" alt="" class="col-md-6 col-sm-3 col-3 mt-3"></div> -->
+                                    <!-- <div class="col-md-3">SCAN QR CODE:</div> -->
+                                </div>
+                            </div>
+                        </div>
+        <!--                 
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-12"><img src="images/crayonCrew_footer.jpg" class="col-md-12 col-lg-12" height="200px" alt=""></div> -->
+                    </div>
+                </div>
+            </section>
+       </footer>
+    </section>
+<script>
+$(document).ready(function(){ 
+    $("#musfira_vegetables").hide();
+        $("#veg").click(function(){
+        $("#musfira_vegetables").show();
+     })
+     $("#musfira_nonvegetables").hide();
+        $("#non").click(function(){
+            $("#musfira_vegetables").hide();
+            $("#musfira_nonvegetables").show();
+        })
+        $("#omama_mix").hide();
+        $("#mix").click(function(){
+            $("#musfira_vegetables").hide();
+            $("#musfira_nonvegetables").hide();
+            $("#omama_mix").show();
+        })
+        $("#omama_sweet").hide();
+        $("#sweet").click(function(){
+            $("#omama_sweet").show();
+            $("#musfira_vegetables").hide();
+            $("#musfira_nonvegetables").hide();
+            $("#omama_mix").hide();
+            
+        })
+
+})
+</script>
+   
+</body>
+</html>
